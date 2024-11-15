@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Start your development with pawan landing page.">
+    <link rel="icon" type="image/png" href="./coding.png">
+    <meta name="author" content="Devcrud">
+    <title>Pawan kalyan </title>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <!-- font icons -->
+    <!-- <link rel="stylesheet" href=" assets/vendors/themify-icons/css/themify-icons.css"> -->
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <link rel="stylesheet" href="/pawan/public_html/assets/vendors/themify-icons/css/themify-icons.css">
+    <script src="index.js" defer></script>
+    <!-- Bootstrap + pawan main styles -->
+    <link rel="stylesheet" href="/pawan/public_html/assets/css/pawan.css">
+    <link rel="stylesheet" href="/index.css">
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
+    <a href="/pawan/public_html/components.html" class="btn btn-primary btn-component" data-spy="affix"
+        data-offset-top="600"><i class="ti-shift-left-alt"></i> Components</a>
+    <header class="header " id="header">
+        <div class="container" id="container">
+            <div class="header-content">
+                <h4 class="header-subtitle">Hello, I am </h4>
+                <h1 class="header-title">Pawan kalyan</h1>
+                <h6 class="header-mono">Full Stack Developer| MERN Stack </h6>
+            </div>
+        </div>
+    </header>
+    <div class="image-container">
+        <img src="Resume_photo.jpg" alt="Profile Image" class="profile-image">
+    </div>
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-white" id="nav" data-spy="affix"
+        data-offset-top="510">
+        <div class="container">
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse"
+                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <!-- Rounded switch -->
+                        <label class="switch">
+                            <input type="checkbox" id="darkModeToggle" onclick="change()">
+                            <span class="slider round"></span>
+                        </label>
+
+                    </li>
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#resume" class="nav-link">Resume</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#Projects" class="nav-link">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#Certificate" class="nav-link">My Certificate</a>
+                    </li>
+                    <li class="nav-item last-item">
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+        <div id="about" class="row about-section">
+            <div class="col-lg-4 about-card" id="card">
+                <h3 class="font-weight-light">Who am I ?</h3>
+                <span class="line mb-5"></span>
+                <h5 class="mb-3">Passionate Full Stack Developer focused on dynamic, user-friendly web applications with
+                    expertise in JavaScript framework and library.</h5>
+                <p class="mt-20">As a passionate Full Stack Developer, I specialize in creating dynamic, user-friendly
+                    web applications. I possess advanced skills in React for frontend development and Node.js with
+                    Express for backend integration. My expertise extends to HTML, CSS, JavaScript, JSON, and database
+                    management (SQL & MongoDB), alongside proficiency in EJS template engines.</p>
+                <a class="btn btn-outline-danger" href="/RESUME-PAWAN KALYAN.pdf" download="RESUME-PAWAN KALYAN.pdf"><i
+                        class="icon-down-circled2 "></i>Download My CV</a>
+            </div>
+            <div class="col-lg-4 about-card" id="card">
+                <h3 class="font-weight-light">Personal Info</h3>
+                <span class="line mb-5"></span>
+                <ul class="mt40 info list-unstyled">
+                    <li><span>Email</span> : pawankalyan.sn2902@gmail.com</li>
+                    <li><span>github</span> : <a
+                            href="https://github.com/pawankalyan2902">https://github.com/pawankalyan2902</a> </li>
+                    <li><span>linkedin</span> : <a
+                            href="https://www.linkedin.com/in/pawankalyan2902/">https://www.linkedin.com/in/pawankalyan2902/</a>
+                    </li>
+                </ul>
+
+            </div>
+            <div class="col-lg-4 about-card" id="card">
+                <h3 class="font-weight-light">My Experience</h3>
+                <span class="line mb-5"></span>
+                <div class="row">
+                    <div class="col-1 text-danger pt-1" style="font-size: 4rem;"><svg xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 24 24" width="36" height="36" fill="rgba(240,187,64,1)">
+                            <path
+                                d="M3 3H21C21.5523 3 22 3.44772 22 4V20C22 20.5523 21.5523 21 21 21H3C2.44772 21 2 20.5523 2 20V4C2 3.44772 2.44772 3 3 3ZM16.4645 15.5355L20 12L16.4645 8.46447L15.0503 9.87868L17.1716 12L15.0503 14.1213L16.4645 15.5355ZM6.82843 12L8.94975 9.87868L7.53553 8.46447L4 12L7.53553 15.5355L8.94975 14.1213L6.82843 12ZM11.2443 17L14.884 7H12.7557L9.11597 17H11.2443Z">
+                            </path>
+                        </svg>
+                    </div>
+                    <div class="col-10 ml-auto mr-3">
+                        <h6>Web Developer
+                        </h6>
+                        <p class="subtitle"> Focus: Creating and maintaining websites and web applications that are
+                            functional, responsive, and user-friendly.
+                            <br>
+                            Skills: Proficient in using modern web technologies and frameworks to build engaging user
+                            interfaces and robust backend systems.
+                            <br>
+                            Experience: Involves collaborating with designers and stakeholders to ensure that digital
+                            products meet user needs and business objectives.
+                        </p>
+                        <hr>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-1 text-danger pt-1"><span>
+                            <svg style="margin-top: 2rem;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                width="36" height="36" fill="rgba(240,187,64,1)">
+                                <path
+                                    d="M6 3C4.34315 3 3 4.34315 3 6V18C3 19.6569 4.34315 21 6 21H18C19.6569 21 21 19.6569 21 18V6C21 4.34315 19.6569 3 18 3H6ZM13.3344 16.055C14.0531 16.6343 14.7717 16.9203 15.4904 16.913C15.9304 16.913 16.2677 16.8323 16.5024 16.671C16.7297 16.517 16.8434 16.297 16.8434 16.011C16.8434 15.7177 16.7297 15.4683 16.5024 15.263C16.2677 15.0577 15.8241 14.8523 15.1714 14.647C14.3867 14.4197 13.7817 14.1263 13.3564 13.767C12.9384 13.4077 12.7257 12.9053 12.7184 12.26C12.7184 11.6513 12.9824 11.1417 13.5104 10.731C14.0237 10.3203 14.6801 10.115 15.4794 10.115C16.5941 10.115 17.4887 10.3863 18.1634 10.929L17.3934 12.128C17.1221 11.9153 16.8104 11.7613 16.4584 11.666C16.1064 11.556 15.7911 11.501 15.5124 11.501C15.1311 11.501 14.8267 11.5707 14.5994 11.71C14.3721 11.8493 14.2584 12.0327 14.2584 12.26C14.2584 12.5093 14.3977 12.722 14.6764 12.898C14.9551 13.0667 15.4317 13.2537 16.1064 13.459C16.9204 13.701 17.4997 14.0237 17.8444 14.427C18.1891 14.8303 18.3614 15.3437 18.3614 15.967C18.3614 16.605 18.1157 17.155 17.6244 17.617C17.1404 18.0717 16.4364 18.31 15.5124 18.332C14.3024 18.332 13.2904 17.969 12.4764 17.243L13.3344 16.055ZM7.80405 16.693C8.03872 16.8397 8.32105 16.913 8.65105 16.913C8.99572 16.913 9.28172 16.814 9.50905 16.616C9.73639 16.4107 9.85005 16.055 9.85005 15.549V10.247H11.3351V15.835C11.3131 16.7003 11.0637 17.3237 10.5871 17.705C10.3157 17.9323 10.0187 18.0937 9.69605 18.189C9.37339 18.2843 9.06172 18.332 8.76105 18.332C8.21105 18.332 7.72339 18.2367 7.29805 18.046C6.84339 17.8407 6.46205 17.4777 6.15405 16.957L7.18805 16.11C7.37872 16.3667 7.58405 16.561 7.80405 16.693Z">
+                                </path>
+                            </svg>
+                            <svg style="margin-top: 1rem;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                width="36" height="36" fill="rgba(234,113,46,1)">
+                                <path
+                                    d="M12.001 13.5001C11.1725 13.5001 10.501 12.8285 10.501 12.0001C10.501 11.1716 11.1725 10.5001 12.001 10.5001C12.8294 10.5001 13.501 11.1716 13.501 12.0001C13.501 12.8285 12.8294 13.5001 12.001 13.5001ZM11.4733 16.4945C11.6479 16.705 11.8239 16.908 12.001 17.103C12.178 16.908 12.3541 16.705 12.5286 16.4945C12.3538 16.4982 12.1779 16.5001 12.001 16.5001C11.824 16.5001 11.6481 16.4982 11.4733 16.4945ZM9.47837 16.3694C8.6762 16.2846 7.91035 16.1603 7.19268 16.0016C7.11832 16.3512 7.06134 16.6904 7.02243 17.0166C6.83358 18.6 7.09805 19.5617 7.50098 19.7943C7.9039 20.0269 8.86893 19.7751 10.1458 18.8199C10.4088 18.6231 10.6741 18.4042 10.9397 18.1649C10.4434 17.6228 9.95287 17.0217 9.47837 16.3694ZM16.8093 16.0016C16.0916 16.1603 15.3257 16.2846 14.5236 16.3694C14.0491 17.0217 13.5585 17.6228 13.0622 18.1649C13.3279 18.4042 13.5931 18.6231 13.8562 18.8199C15.133 19.7751 16.0981 20.0269 16.501 19.7943C16.9039 19.5617 17.1684 18.6 16.9795 17.0166C16.9406 16.6904 16.8836 16.3512 16.8093 16.0016ZM18.2598 15.6136C18.8364 18.2526 18.5328 20.3533 17.251 21.0933C15.9691 21.8334 13.9981 21.046 12.001 19.2271C10.0038 21.046 8.03282 21.8334 6.75098 21.0933C5.46913 20.3533 5.16555 18.2526 5.74217 15.6136C3.16842 14.7935 1.50098 13.4802 1.50098 12.0001C1.50098 10.5199 3.16842 9.20668 5.74217 8.38654C5.16555 5.74754 5.46913 3.64687 6.75098 2.9068C8.03282 2.16673 10.0038 2.95415 12.001 4.77302C13.9981 2.95415 15.9691 2.16673 17.251 2.9068C18.5328 3.64687 18.8364 5.74754 18.2598 8.38654C20.8335 9.20668 22.501 10.5199 22.501 12.0001C22.501 13.4802 20.8335 14.7935 18.2598 15.6136ZM10.9397 5.83521C10.6741 5.59597 10.4088 5.37703 10.1458 5.18024C8.86893 4.22499 7.9039 3.97321 7.50098 4.20584C7.09805 4.43847 6.83358 5.4001 7.02243 6.9835C7.06134 7.30969 7.11832 7.6489 7.19268 7.99857C7.91035 7.83985 8.6762 7.71556 9.47837 7.63078C9.95287 6.97848 10.4434 6.37737 10.9397 5.83521ZM14.5236 7.63078C15.3257 7.71556 16.0916 7.83985 16.8093 7.99857C16.8836 7.6489 16.9406 7.30969 16.9795 6.9835C17.1684 5.4001 16.9039 4.43847 16.501 4.20584C16.0981 3.97321 15.133 4.22499 13.8562 5.18024C13.5931 5.37703 13.3279 5.59597 13.0622 5.83521C13.5585 6.37737 14.0491 6.97848 14.5236 7.63078ZM12.5286 7.50565C12.3541 7.29515 12.178 7.09211 12.001 6.89711C11.8239 7.09211 11.6479 7.29515 11.4733 7.50565C11.6481 7.50194 11.824 7.50007 12.001 7.50007C12.1779 7.50007 12.3538 7.50194 12.5286 7.50565ZM8.37252 14.7042C8.28191 14.5547 8.19233 14.4033 8.10386 14.2501C8.01539 14.0968 7.92906 13.9435 7.84488 13.7903C7.74985 14.0467 7.66205 14.3007 7.58169 14.5515C7.83908 14.6074 8.10295 14.6583 8.37252 14.7042ZM10.3049 14.9377C10.8579 14.9788 11.4251 15.0001 12.001 15.0001C12.5769 15.0001 13.144 14.9788 13.697 14.9377C14.0091 14.4793 14.3111 13.9988 14.5991 13.5001C14.887 13.0013 15.1522 12.4995 15.393 12.0001C15.1522 11.5006 14.887 10.9988 14.5991 10.5001C14.3111 10.0013 14.0091 9.52081 13.697 9.06246C13.144 9.02133 12.5769 9.00007 12.001 9.00007C11.4251 9.00007 10.8579 9.02133 10.3049 9.06246C9.99283 9.52081 9.69086 10.0013 9.4029 10.5001C9.11494 10.9988 8.8498 11.5006 8.60892 12.0001C8.8498 12.4995 9.11494 13.0013 9.4029 13.5001C9.69086 13.9988 9.99283 14.4793 10.3049 14.9377ZM16.1571 10.2098C16.2521 9.9534 16.3399 9.6994 16.4203 9.44859C16.1629 9.39278 15.899 9.34182 15.6294 9.29591C15.72 9.44543 15.8096 9.59683 15.8981 9.75007C15.9866 9.9033 16.0729 10.0566 16.1571 10.2098ZM6.13143 9.83671C5.79142 9.94714 5.46917 10.0674 5.16723 10.1968C3.70154 10.825 3.00098 11.5348 3.00098 12.0001C3.00098 12.4653 3.70154 13.1752 5.16723 13.8033C5.46917 13.9327 5.79142 14.053 6.13143 14.1634C6.35281 13.4625 6.6281 12.7371 6.95576 12.0001C6.6281 11.263 6.35281 10.5376 6.13143 9.83671ZM7.58169 9.44859C7.66205 9.6994 7.74985 9.9534 7.84488 10.2098C7.92906 10.0566 8.01539 9.9033 8.10386 9.75007C8.19233 9.59683 8.28191 9.44543 8.37252 9.29591C8.10295 9.34182 7.83908 9.39278 7.58169 9.44859ZM17.8705 14.1634C18.2105 14.053 18.5328 13.9327 18.8347 13.8033C20.3004 13.1752 21.001 12.4653 21.001 12.0001C21.001 11.5348 20.3004 10.825 18.8347 10.1968C18.5328 10.0674 18.2105 9.94714 17.8705 9.83671C17.6491 10.5376 17.3739 11.263 17.0462 12.0001C17.3739 12.7371 17.6491 13.4625 17.8705 14.1634ZM16.4203 14.5515C16.3399 14.3007 16.2521 14.0467 16.1571 13.7903C16.0729 13.9435 15.9866 14.0968 15.8981 14.2501C15.8096 14.4033 15.72 14.5547 15.6294 14.7042C15.899 14.6583 16.1629 14.6074 16.4203 14.5515Z">
+                                </path>
+                            </svg>
+                            <svg style="margin-top: 1rem;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                width="36" height="36" fill="currentColor">
+                                <path
+                                    d="M12.8873 1.36173C12.3396 1.03958 11.6604 1.03958 11.1127 1.36173L3.36271 5.92056C2.8282 6.23498 2.5 6.8088 2.5 7.42894V16.571C2.5 17.1912 2.8282 17.765 3.36272 18.0794L5.98596 19.6225C7.31923 20.4068 9 19.4454 9 17.8986V7.74655H7V17.8986L4.5 16.428V7.57193L12 3.16016L19.5 7.57193V16.428L12 20.8398L10.2316 19.7996L9.21757 21.5234L11.1127 22.6382C11.6604 22.9604 12.3396 22.9604 12.8873 22.6382L20.6373 18.0794C21.1718 17.765 21.5 17.1912 21.5 16.571V7.42894C21.5 6.8088 21.1718 6.23498 20.6373 5.92056L12.8873 1.36173ZM13.9999 7.49998C12.6372 7.49998 11.6712 7.85114 11.0504 8.46993C10.4336 9.08484 10.3135 9.80885 10.3135 10.2313C10.3135 10.7862 10.4705 11.289 10.7951 11.7048C11.1076 12.1053 11.5199 12.3537 11.9146 12.5159C12.6341 12.8116 13.5358 12.9086 14.2587 12.9863L14.346 12.9957C15.1774 13.0856 15.7998 13.1627 16.2263 13.3411C16.4189 13.4217 16.4983 13.4954 16.531 13.5379C16.5524 13.5658 16.5934 13.6278 16.5934 13.7977C16.5934 14.0618 16.5027 14.2319 16.2204 14.3926C15.873 14.5904 15.2596 14.7396 14.3368 14.7396C13.4218 14.7396 12.7838 14.5705 12.4192 14.3181C12.1357 14.1218 11.9273 13.821 11.9822 13.1683L9.98923 13.0007C9.88075 14.29 10.3479 15.3167 11.2808 15.9625C12.1325 16.5521 13.2518 16.7396 14.3368 16.7396C15.414 16.7396 16.4289 16.5753 17.2098 16.1307C18.0558 15.6491 18.5934 14.8482 18.5934 13.7977C18.5934 13.2414 18.4381 12.7369 18.1162 12.3184C17.8054 11.9144 17.3942 11.6617 16.9981 11.496C16.2701 11.1915 15.3576 11.0932 14.6296 11.0147H14.6296L14.5609 11.0073C13.7274 10.9172 13.1036 10.8423 12.6748 10.666C12.4808 10.5863 12.4025 10.5137 12.3716 10.4742C12.3528 10.4501 12.3135 10.394 12.3135 10.2313C12.3135 10.1538 12.3363 10.0121 12.4624 9.88637C12.5847 9.76449 12.9618 9.49998 13.9999 9.49998C14.9904 9.49998 15.5674 9.60515 15.897 9.80064C16.1123 9.92838 16.3451 10.1633 16.3761 10.9329L18.3745 10.8524C18.3243 9.60675 17.8694 8.64527 16.9173 8.08051C16.0795 7.58349 15.0094 7.49998 13.9999 7.49998Z">
+                                </path>
+                            </svg>
+                        </span></i></div>
+                    <div class="col-10 ml-auto mr-3">
+                        <h6>Proficient in React & Backend Integration with NodeJS & Express</h6>
+                        <p class="subtitle">Focus: Leveraging React for building interactive user interfaces while
+                            seamlessly integrating with backend technologies.
+                            <br> Skills: Expertise in state management, component lifecycle, and routing in React,
+                            alongside
+                            skills in using Node.js and Express for server-side development.
+                            <br> Experience: Involves developing full-stack applications where React manages the
+                            frontend and
+                            Node.js handles API requests and server logic.
+                        </p>
+                        <hr>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-1 text-danger pt-1"><svg style="margin-top: 2rem;"
+                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36"
+                            fill="rgba(70,146,221,1)">
+                            <path
+                                d="M12 18.1778L16.6192 16.9222L17.2434 10.1444H9.02648L8.82219 7.88889H17.4477L17.6747 5.67778H6.32535L6.96091 12.3556H14.7806L14.5195 15.2222L12 15.8889L9.48045 15.2222L9.32156 13.3778H7.0517L7.38083 16.9222L12 18.1778ZM3 2H21L19.377 20L12 22L4.62295 20L3 2Z">
+                            </path>
+                        </svg>
+                        <svg style="margin-top: 1rem;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36"
+                            height="36" fill="rgba(70,146,221,1)">
+                            <path
+                                d="M5.00006 3L4.35006 6.34H17.9401L17.5001 8.5H3.92006L3.26006 11.83H16.8501L16.0901 15.64L10.6101 17.45L5.86006 15.64L6.19006 14H2.85006L2.06006 18L9.91006 21L18.9601 18L20.1601 11.97L20.4001 10.76L21.9401 3H5.00006Z">
+                            </path>
+                        </svg>
+                    </div>
+
+                    <div class="col-10 ml-auto mr-3">
+                        <h6>Advanced HTML/CSS/JavaScript</h6>
+                        <p class="subtitle">Focus: Utilizing core web technologies to create structured, styled, and
+                            interactive web pages.
+                            <br> Skills: Mastery in HTML for content structure, CSS for design and layout, and
+                            JavaScript for
+                            dynamic behavior and interactivity.
+                            <br> Experience: Involves crafting responsive designs that work across devices and browsers,
+                            ensuring an optimal user experience.
+                        </p>
+                        <hr>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-1 text-danger pt-1"><svg style="margin-top: 3rem;"
+                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48"
+                            fill="rgba(159,207,248,1)">
+                            <path
+                                d="M21 9.5V12.5C21 14.9853 16.9706 17 12 17C7.02944 17 3 14.9853 3 12.5V9.5C3 11.9853 7.02944 14 12 14C16.9706 14 21 11.9853 21 9.5ZM3 14.5C3 16.9853 7.02944 19 12 19C16.9706 19 21 16.9853 21 14.5V17.5C21 19.9853 16.9706 22 12 22C7.02944 22 3 19.9853 3 17.5V14.5ZM12 12C7.02944 12 3 9.98528 3 7.5C3 5.01472 7.02944 3 12 3C16.9706 3 21 5.01472 21 7.5C21 9.98528 16.9706 12 12 12Z">
+                            </path>
+                        </svg></div>
+                    <div class="col-10 ml-auto mr-3">
+                        <h6>Skilled in JSON, Database Management (SQL & MongoDB), EJS Template Engines</h6>
+                        <p class="subtitle">Focus: Managing data efficiently and rendering dynamic content in web
+                            applications.
+                            <br> Skills: Proficient in using JSON for data interchange, SQL for relational database
+                            management, and MongoDB for NoSQL data storage. Additionally skilled in EJS for embedding
+                            JavaScript in HTML templates.
+                            <br> Experience: Involves designing data schemas, querying databases, and dynamically
+                            generating
+                            HTML content to enhance the functionality of web applications.
+                        </p>
+                        <hr>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Resume Section-->
+    <section class="section" id="resume">
+        <div class="container">
+            <h2 class="mb-5" id="res"><span class="text-danger">My</span> Resume</h2>
+            <div class="row">
+                <div class="col-md-6 col-lg-4">
+                    <div class="card">
+                        <div class="card-header">
+                            <div class="mt-2">
+                                <h4>My Experience</h4>
+                                <span class="line"></span>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h6 class="title text-danger">Oct 2023 - Nov 2023 </h6>
+                            <P>Data Science</P>
+
+                            <P class="subtitle">I’m thrilled to share that I’ve successfully completed my internship at
+                                CodSoft as a Data Science Intern! 🚀 During this enriching experience, I earned the CIP
+                                Certificate, recognizing my dedication and achievements. I explored the dynamic realm of
+                                Data Science, applied machine learning techniques to real-world projects, and gained
+                                hands-on experience in data analysis and model building. Huge thanks to CodSoft for
+                                providing such an incredible learning environment! I’m excited to apply these skills in
+                                my future endeavors.</P>
+                            <a href="codsoft.png"><img src="codsoft.png" alt="SHOPPING WEBSITE" id="project_img" style="    width: 13rem;
+    height: 9rem;" class="certificate"></a>
+                            <hr>
+                            <h6 class="title text-danger">Jun 2023 - Jul 2023 </h6>
+                            <P>Full Stack</P>
+                            <P class="subtitle">During my internship, I acquired comprehensive knowledge about full
+                                stack development. I was involved in both frontend and backend tasks, allowing me to
+                                gain a holistic understanding of web development. On the frontend, I worked with HTML,
+                                CSS, and JavaScript,. On the backend, I gained experience with server-side technologies
+                                such as Node.js, Express, and databases like MongoDB and SQL. This internship provided
+                                me with valuable insights into API development, authentication mechanisms, and
+                                deployment processes. Overall, it significantly enhanced my ability to develop and
+                                manage end-to-end web applications.</P>
+                            <a
+                                href="https://v.certiefy.com/S0VZR0VOMuKLhch6gOTz_uSdiZB_t92OAy3NSAsT4h3opj0beJ4SUGxAg7s1asZDLELXJUq_Uz90g3zzsm92wLy2F-h1eYofofN2FLk4yOWvuH4gJOXkQxw_GpQoVxHzOMWf7kToj3iete4iSARFPCPPsYs9sTHYCDGA3Cgmkbvwh9qgy-rUaCIw32eumMYE7Kv7fnAANil0CPcbOJecYgdKiMSxSn7yJrIufVnhPxEWvvatWWxH-po5VoVEwJCFkbLRPtWhbP4QbSHgWOkKAO6idDZZQJJtVFkcrbswD09FoKfJdPmFndV5myps46NdJDr57EIRnoQy9-KLhU6rmW9kGrZwv7uUkPhEEokYyJLoa5gnT-3qZss192c5"><img
+                                    src="varcons.png" alt="varcons" id="project_img" style="    width: 13rem;
+    height: 9rem;" class="certificate"></a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card">
+                        <div class="card-header">
+                            <div class="mt-2">
+                                <h4>Education</h4>
+                                <span class="line"></span>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h6 class="title text-danger">DAYANANDA SAGAR ACADEMY OF TECHNOLOGY AND MANAGEMENT <br> 2021
+                                - 2025</h6>
+                            <P>B.E Information Science</P>
+                            <P class="subtitle">Attained a commendable CGPA of 8.6 in my engineering program,
+                                highlighting my dedication to mastering complex concepts and excelling in my studies.
+                            </P>
+                            <hr>
+                            <h6 class="title text-danger">St. Joseph's University<br> 2019 - 2021</h6>
+                            <P> PU </P>
+                            <P class="subtitle">Achieved an outstanding score of 90% in the 12th standard, reflecting my
+                                commitment to academic excellence and a strong foundation in my studies.</P>
+                            <hr>
+                            <h6 class="title text-danger">Chinmaya Vidyalaya<br> 2008 - 2019</h6>
+                            <P>Schooling</P>
+                            <P class="subtitle">Secured an impressive score of 91.52% in the 10th standard, showcasing
+                                my
+                                dedication to academic excellence and a solid foundation in various subjects</P>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card">
+                        <div class="card-header">
+                            <div class="pull-left">
+                                <h4 class="mt-2">Skills</h4>
+                                <span class="line"></span>
+                            </div>
+                        </div>
+                        <div class="card-body pb-2">
+
+                            <h6>JavaScript</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 92%"
+                                    aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6>Node JS</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 95%;"
+                                    aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6>React</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 95%"
+                                    aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6>Express</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 95%"
+                                    aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6>MongoDB</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 94%"
+                                    aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6>SQL</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 84%"
+                                    aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6>REST Api</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 93%"
+                                    aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6>HTML &amp; CSS</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 95%"
+                                    aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6>Embedded JavaScript</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 87%"
+                                    aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            <div class="pull-left">
+                                <h4 class="mt-2">Languages</h4>
+                                <span class="line"></span>
+                            </div>
+                        </div>
+                        <div class="card-body pb-2">
+                            <h6>English</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 95%"
+                                    aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6>Kannada</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 85%"
+                                    aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6>Tamil</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 97%"
+                                    aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6>Telugu</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 67%"
+                                    aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section bg-dark text-center">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-6 col-lg-3">
+                    <div class="row">
+                        <div class="col-5 text-right text-light border-right py-3">
+                            <div class="m-auto"><i class="ti-layers-alt icon-xl"></i></div>
+                        </div>
+                        <div class="col-7 text-left py-3">
+                            <h1 class="text-danger font-weight-bold font40">22</h1>
+                            <p class="text-light mb-1">Repository</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="row">
+                        <div class="col-5 text-right text-light border-right py-3">
+                            <div class="m-auto"><i class="ti-face-smile icon-xl"></i></div>
+                        </div>
+                        <div class="col-7 text-left py-3">
+                            <h1 class="text-danger font-weight-bold font40">2</h1>
+                            <p class="text-light mb-1">Happy Internships</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="row">
+                        <div class="col-5 text-right text-light border-right py-3">
+                            <div class="m-auto"><i class="ti-heart-broken icon-xl"></i></div>
+                        </div>
+                        <div class="col-7 text-left py-3">
+                            <h1 class="text-danger font-weight-bold font40">JavaScript</h1>
+                            <p class="text-light mb-1">My Language</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="Projects">
+        <div class="container">
+            <h2 class="mb-5 pb-4" id="res"><span class="text-danger">My</span> Projects</h2>
+            <div class="row">
+                <div class="col-md-4 col-sm-6">
+                    <div class="card mb-5">
+                        <div class="card-header has-icon">
+                            <i class="ti-vector text-danger" aria-hidden="true"></i>
+                        </div>
+                        <div class="card-body px-4 py-3">
+                            <img src="Todo APi.png" alt="TODO-API-BAKEND-AND-FRONTEND-" id="project_img">
+                            <h5 class="mb-3 card-title text-dark">
+                                TO DO API BACKEND AND FRONTEND PROJECT</h5>
+                            <P class="subtitle">This project features a frontend developed with HTML, CSS, and
+                                JavaScript, and a backend
+                                using Node.js and Express. It follows RESTful API principles and performs CRUD (Create,
+                                Read,
+                                Update, Delete) operations, enabling comprehensive data management and interaction
+                                between the client and server.</P>
+                            <p>GithubLink: <a href="https://github.com/pawankalyan2902/TODO-API-BAKEND-AND-FRONTEND-">
+                                    TO DO API PROJECT </a> </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="card mb-5">
+                        <div class="card-header has-icon">
+                            <i class="ti-write text-danger" aria-hidden="true"></i>
+                        </div>
+                        <div class="card-body px-4 py-3">
+                            <img src="shopping.png" alt="SHOPPING WEBSITE" id="project_img">
+                            <h5 class="mb-3 card-title text-dark">
+                                SHOPPING WEBSITE</h5>
+                            <P class="subtitle">This shopping website features a frontend built with HTML, CSS, and
+                                JavaScript,
+                                enhanced by EJS for dynamic content. The backend uses Node.js and Express,
+                                with third-party packages like Multer for file uploads, bcrypt for secure
+                                passwords, and CSRF tokens for protection. MongoDB serves as the database,
+                                with user authentication via sessions and cookies. Stripe is integrated for secure
+                                payment processing.</P>
+                            <p>GithubLink: <a href="https://github.com/pawankalyan2902/SHOPPING-WEBSITE">
+                                    SHOPPING WEBSITE </a> </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="card mb-5">
+                        <div class="card-header has-icon">
+                            <i class="ti-package text-danger" aria-hidden="true"></i>
+                        </div>
+                        <div class="card-body px-4 py-3">
+                            <img src="flexfusion.png" alt="FlexFusion (Gym Website)" id="project_img">
+                            <h5 class="mb-3 card-title text-dark">
+                                FlexFusion (Gym Website)</h5>
+                            <P class="subtitle">FlexFusion is a dynamic, full-stack web application built using the
+                                powerful MERN stack (MongoDB, Express.js, React, Node.js). The website follows the
+                                Model-View-Controller (MVC) architecture, ensuring a clean separation of concerns
+                                between data, user interface, and control logic. It integrates advanced features for
+                                user interaction, seamless data management, and real-time updates.</P>
+                            <p>GithubLink: <a href="https://github.com/pawankalyan2902/Flex-Fusion-GYM-WEBSITE-">
+                                    FlexFusion (Gym Website) </a> </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="card mb-5">
+                        <div class="card-header has-icon">
+                            <i class="ti-map-alt text-danger" aria-hidden="true"></i>
+                        </div>
+                        <div class="card-body px-4 py-3">
+                            <img src="Myblog.png" alt="Myblog" id="project_img">
+                            <h5 class="mb-3 card-title text-dark">
+
+                                Blog Website (CRUD)
+                            </h5>
+                            <P class="subtitle">This blog website is developed using the MVC (Model-View-Controller)
+                                pattern.
+                                Frontend built with HTML, CSS, JavaScript, Bootstrap, and Embedded JavaScript
+                                (EJS) for dynamic rendering. The backend, powered by Node.js and Express, interacts
+                                with MongoDB to perform CRUD (Create, Read, Update, Delete) operations,
+                                allowing users to create new posts, read existing content, update their entries, and
+                                delete posts. User authentication is handled via sessions and cookies, ensuring secure
+                                access to the site's features.</P>
+                            <p>GithubLink: <a href="https://github.com/pawankalyan2902/BLOG-CRUD-using-MONGODB">
+                                    Blog Website (CRUD) </a> </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="card mb-5">
+                        <div class="card-header has-icon">
+                            <i class="ti-bar-chart text-danger" aria-hidden="true"></i>
+                        </div>
+                        <div class="card-body px-4 py-3">
+                            <img src="tic_tac_toe.png" alt="tic_tac_toe" id="project_img">
+                            <h5 class="mb-3 card-title text-dark">
+
+                                Tic Tac Toe</h5>
+                            <P class="subtitle">This Tic-Tac-Toe website is a modern, interactive game developed using
+                                HTML,
+                                CSS, and advanced JavaScript techniques. The HTML and CSS provide a clean,
+                                user-friendly interface, while the JavaScript drives the game logic, ensuring smooth
+                                gameplay. Advanced JavaScript is utilized to handle real-time interactions, such as
+                                detecting win conditions, resetting the game, and providing a responsive
+                                experience across different devices. The result is a sleek, intuitive version of the
+                                classic game that engages users with its dynamic and polished design..</P>
+                            <p>GithubLink: <a href="https://github.com/pawankalyan2902/TIC-TAC-TOE">
+                                    Tic-Tac-Toe</a> </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="card mb-5">
+                        <div class="card-header has-icon">
+                            <i class="ti-support text-danger" aria-hidden="true"></i>
+                        </div>
+                        <div class="card-body px-4 py-3">
+                            <img src="tourism.png" alt="tourism" id="project_img">
+                            <h5 class="mb-3 card-title text-dark">
+
+                                Tourism</h5>
+                            <P class="subtitle">Developed a visually captivating tourism website using HTML and CSS,
+                                featuring a clean, well-structured layout designed to provide an engaging user
+                                experience. The website incorporates responsive design elements, ensuring optimal
+                                performance and usability across various devices, from desktops to mobile screens.
+                                Through efficient use of CSS, the project highlights smooth navigation, intuitive user
+                                interfaces, and eye-catching design aesthetics, making it easy for users to explore
+                                destinations and travel information seamlessly.
+                            </P>
+                            <p>GithubLink: <a href="https://github.com/pawankalyan2902/Tourism">
+
+                                    Tourism </a> </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section class="section bg-custom-gray" id="Certificate">
+        <div class="container">
+            <h1 class="mb-5"><span class="text-danger">My</span> Certificates</h1>
+            <div class="row align-items-center">
+                <div class="col-md-6 col-lg-6">
+                    <div class="price-card text-center mb-4">
+                        <h3 class="price-card-title">100 Days Of Code - 2024 Web Devolopment Bootcamp</h3>
+
+                        <ul class="list">
+                            <a href="https://www.udemy.com/certificate/UC-0d53a35f-bf6c-4af7-b258-42df12cc74fc/"
+                                style="font-size: x-large;padding: 0.7rem;border-radius: 1rem;"><img id="project_img"
+                                    src="udemy.png" alt=""></a>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6">
+                    <div class="price-card text-center mb-4">
+                        <h3 class="price-card-title">Problem Solving Through Programming In C</h3>
+
+                        <ul class="list">
+                            <a href="NPTEL.png" style="font-size: x-large;padding: 0.7rem;border-radius: 1rem;"><img
+                                    src="NPTEL.png" alt="" id="project_img"></a>
+                        </ul>
+
+                    </div>
+                </div>
+                <div class="price-card text-center mb-4">
+                    <h3 class="price-card-title">Namste React</h3>
+
+                    <ul class="list">
+                        <a href="NamsteDev_Certificate.png"
+                            style="font-size: x-large;padding: 0.7rem;border-radius: 1rem;"><img id="project_img"
+                                src="NamsteDev_Certificate.png" alt=""></a>
+                    </ul>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <hr style="margin: 0px;">
+
+    <div class="section contact" id="contact">
+        <div id="map" class="map"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="contact-form-card">
+                        <h4 class="contact-title">Send a message</h4>
+                        <form id="contact-form" method="post">
+                            <div class="form-group">
+                                <input class="form-control" type="text" id="name" placeholder="Name *" required>
+                            </div>
+                            <div class="form-group">
+                                <input class="form-control" type="email" id="email" placeholder="Email *" required>
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control" id="message" placeholder="Message*" rows="7"
+                                    required></textarea>
+                            </div>
+                            <div class="form-group">
+                                <button type="submit" class="form-control btn btn-primary">Send Message</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="contact-info-card">
+                        <h4 class="contact-title">Get in touch</h4>
+                        <div class="row mb-2">
+                            <div class="col-1 pt-1 mr-1">
+                                <i class="ti-envelope icon-md"></i>
+                            </div>
+                            <div class="col-10">
+                                <h6 class="d-inline">Email :<br> <span
+                                        class="text-muted">pawankalyan.sn2902@gmail.com</span></h6>
+                            </div>
+                        </div>
+                        <ul class="social-icons pt-4">
+                            <li class="social-item">
+                                <a class="social-link " href="https://www.linkedin.com/in/pawankalyan2902/">
+                                    <i class="ti-linkedin" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li class="social-item">
+                                <a class="social-link" href="https://github.com/pawankalyan2902">
+                                    <i class="ti-github" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("DugVthj7Z7JpsOn7P"); // Replace with your public key from EmailJS
+        })();
+
+        document.getElementById('contact-form').addEventListener('submit', function (event) {
+            event.preventDefault(); // Prevent form submission
+
+            // Send email through EmailJS
+            emailjs.send("service_sd6gqpl", "template_gqoiu4p", {
+                name: document.getElementById("name").value,
+                email: document.getElementById("email").value,
+                message: document.getElementById("message").value,
+            })
+                .then(function (response) {
+                    alert('Message sent successfully!', response.status, response.text);
+                    document.getElementById("contact-form").reset(); // Reset form after successful submission
+                }, function (error) {
+                    alert('Failed to send message. Please try again.', error);
+                });
+        });
+    </script>
+
+
+    <footer class="footer py-3">
+        <div class="container text-center"> <!-- Center the text -->
+            <p class="text-muted">Made with <span style="color: red;">&hearts;</span> by Pawan Kalyan</p>
+        </div>
+    </footer>
+
+
+    <!-- core  -->
+    <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
+    <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
+
+    <!-- bootstrap 3 affix -->
+    <script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
+
+    <!-- Isotope  -->
+    <script src="assets/vendors/isotope/isotope.pkgd.js"></script>
+
+    <!-- Google mpas -->
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCtme10pzgKSPeJVJrG1O3tjR6lk98o4w8&callback=initMap"></script>
+
+    <!-- pawan js -->
+    <script src="assets/js/pawan.js"></script>
+
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("DugVthj7Z7JpsOn7P"); // Initialize with your public key from EmailJS
+        })();
+    </script>
+</body>
+
+</html>

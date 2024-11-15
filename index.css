@@ -1,0 +1,232 @@
+#header {
+  background-image: url('Black\ and\ White\ Simple\ Art\ Director\ LinkedIn\ Banner.png');
+  object-fit: cover;
+}
+
+body {
+  background-color: black;
+}
+
+#container {
+  backdrop-filter: blur(1px)
+}
+
+#project_img {
+  width: 100%;
+  height: 13rem;
+  transition: box-shadow 0.3s ease-in-out;
+  border-radius: 1rem;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+
+#project_img:hover {
+
+  box-shadow: 0 0 4px 5px rgba(0, 140, 186, 0.5);
+}
+
+.certificate {
+  width: 10rem;
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.image-container {
+
+  display: flex;
+  justify-content: center;
+  /* Centers the image horizontally */
+  margin-top: -50px;
+  /* Adjust as needed to position the image between header and navbar */
+  z-index: 2;
+  /* Ensures the image is above other elements */
+}
+
+.profile-image {
+  width: 150px;
+  /* Adjust the size as needed */
+  height: 150px;
+  /* Set to the same as width for a perfect circle */
+  border-radius: 50%;
+  /* Makes the image circular */
+  border: 5px solid white;
+  /* Optional: Add a white border around the image */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  /* Optional: Add a shadow for better effect */
+  position: relative;
+  z-index: 2;
+  /* Ensures image stays above background */
+  object-fit: cover;
+}
+
+
+.social-link :hover {
+  color: #e45c6e;
+}
+
+/* Dark Mode Styles */
+#card {
+  background-color: black;
+  color: aliceblue;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+p {
+  color: aliceblue;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+}
+
+h4 {
+  color: white;
+}
+
+.navbar.sticky-top.navbar-expand-lg.navbar-light.bg-white {
+  background-color: black;
+  color: aliceblue;
+}
+
+#resume {
+  background-color: black;
+}
+
+.card .card-body {
+  background-color: black;
+  color: white;
+}
+
+.card .card-header {
+  background-color: black;
+}
+
+#service {
+  background-color: black;
+}
+
+.section.bg-custom-gray {
+  background-color: black;
+  color: aliceblue;
+}
+
+.text-dark {
+  color: #F85C70;
+}
+
+.contact .map {
+  background-color: black;
+}
+
+.contact .contact-form-card,
+.contact .contact-info-card {
+  background-color: black;
+  color: white;
+}
+
+#res {
+  color: white;
+}
+
+.info span {
+  color: white;
+}
+
+.header .header-content .header-subtitle {
+  color: white;
+}
+
+.navbar-light .navbar-toggler {
+  background-color: #F85C70;
+  border-radius: 0.1rem;
+}
+
+.image-container {
+  background-color: black;
+}
+
+/* .card .card-header
+{
+  background-color: black;
+}
+.section.bg-custom-gray
+{
+  background-color: black;
+} */
+
+
+
+/* The switch - the container */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #F85C70;
+  transition: 0.4s;
+  border-radius: 34px;
+}
+
+/* Slider round shape */
+.slider.round {
+  border-radius: 34px;
+}
+
+/* Slider before it moves */
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  transition: 0.4s;
+  border-radius: 50%;
+}
+
+/* When the checkbox is checked, move the slider to the left */
+input:checked+.slider:before {
+  transform: translateX(0px);
+  /* Move back to the left */
+}
+
+/* Unchecked (initial state): slider to the right */
+.slider:before {
+  transform: translateX(26px);
+}
+
+/* When the checkbox is checked, change background color */
+input:checked+.slider {
+  background-color: #ccc;
+}
+
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #F85C70;
+}
